@@ -1,0 +1,11 @@
+
+.footer {
+    background-color: #002040; /* Azul mais escuro para contraste */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
