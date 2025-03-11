@@ -1,0 +1,17 @@
+
+
+
+
+
+header {
+    background-color: var(--cor-header);
+    color: white;
+    padding: var(--margin-padrao);
+    text-align: center;
+}
+
+header img {
+    width: var(--largura-imagens);
+    height: var(--altura-imagens);
+    object-fit: cover;
+}
