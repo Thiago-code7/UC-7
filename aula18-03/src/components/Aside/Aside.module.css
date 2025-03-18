@@ -1,0 +1,8 @@
+.aside {
+    background-color: var(--cor-secao);
+    margin: var(--margin-padrao);
+    padding: var(--padding-padrao);
+    border-radius: var(--border-radius);
+    border: var(--border-size)solid var(--cor-borda);
+
+}
