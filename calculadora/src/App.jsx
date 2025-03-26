@@ -1,5 +1,5 @@
 import React from "react";
-import TipCalculatorPage from "./pages/TipoCalculatorPage/TipCalculatorPage"
+import TipCalculatorPage from "./pages/TipCalculatorPage/TipCalculatorPage"
 
 
 function App() {

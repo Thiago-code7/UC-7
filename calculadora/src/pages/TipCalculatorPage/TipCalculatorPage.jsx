@@ -32,7 +32,7 @@ function TipCalculator() {
          <Button
          text="Calcular" onClick={CalcularGorjeta}
          />
-         <ResultDisplay gorjeta={resultado.gorjeta} total={resultado.total}/>
+         {resultado && (<ResultDisplay gorjeta={resultado.gorjeta} total={resultado.total}/>)}
 
         </>
     );
