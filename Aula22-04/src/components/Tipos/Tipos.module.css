@@ -1,4 +1,4 @@
-
+/* 
 #tipos p {
     margin: 1rem auto;
   }
@@ -18,4 +18,51 @@
     padding: 1rem 2.5rem 1rem 1rem;
   
     text-align: left;
+  } */
+
+  #tipos p {
+    margin: 1rem auto;
   }
+  
+  #tipos table {
+    border-collapse: collapse;
+    border: 1px solid;
+  }
+  
+  #tipos table th {
+    background-color: var(--thead-footer-bgcolor);
+  }
+  
+  #tipos table th,
+  #tipos table td {
+    border: 1px solid black;
+    padding: 1rem 2.5rem 1rem 1rem;
+    text-align: left;
+  }
+  
+  /* Cores mais chamativas para cada linha */
+  #tipos table tr:nth-child(1) {
+    background-color: #ff4081; /* Rosa vibrante */
+  }
+  
+  #tipos table tr:nth-child(2) {
+    background-color: #64b5f6; /* Azul elétrico */
+  }
+  
+  #tipos table tr:nth-child(3) {
+    background-color: #81c784; /* Verde limão */
+  }
+  
+  #tipos table tr:nth-child(4) {
+    background-color: #ffeb3b; /* Amarelo intenso */
+  }
+  
+  #tipos table tr:nth-child(5) {
+    background-color: #ff9800; /* Laranja vibrante */
+  }
+  
+  #tipos table tr:nth-child(6) {
+    background-color: #f44336; /* Vermelho forte */
+  }
+  
+  

@@ -2,7 +2,7 @@ import styles from './Tipos.module.css'
 
 function Tipos(){
     return(
-        <section id="tipos">
+        <section id={styles.tipos}>
         <h2>Linguagens de Programação</h2>
 
         <p>Texto sobre diferentes linguagens de programação...</p>

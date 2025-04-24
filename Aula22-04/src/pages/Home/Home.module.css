@@ -1,5 +1,80 @@
-@media screen and (min-width:668px){
-    body{
-        background-color: aqua;
+/* @media screen and (min-width: 500px) {
+    body {
+        background-color: #e5ff00;
+        flex-direction: row;
     }
 }
+
+@media screen and (min-width: 40rem) {
+    header {
+        padding: 2rem;
+        width: 100%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha todo o conteúdo horizontalmente */
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #e5ff00;
+}
+
+header, main, footer {
+    width: 100%;
+    max-width: 1200px; /* Define um limite máximo de largura */
+    text-align: center; /* Centraliza o texto dentro do header, main e footer */
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        flex-direction: column;
+        align-items: center; /* Continua centralizando o conteúdo */
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 40rem) {
+    header {
+        padding: 2rem;
+        width: 100%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; /* Centraliza os itens dentro do main */
+        margin-top: 2rem;
+    }
+
+    footer {
+        padding: 2rem;
+        text-align: center;
+    }
+}
+
+
+
